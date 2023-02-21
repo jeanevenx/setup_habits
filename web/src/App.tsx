@@ -1,12 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+
+import './styles/global.css';
 import { Habit } from './components/Habit'
 
 function App() {
 
   return (
-    <Habit completed={3}/>
+    <div className=''>
+      <Habit completed={3}/>
+    </div>
   )
 }
 
